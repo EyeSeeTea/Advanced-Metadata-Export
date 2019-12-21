@@ -9,4 +9,5 @@ build/
 
 ### Environment ###
 .env.development
+.env
 advanced-export.zip
