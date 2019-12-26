@@ -38,14 +38,15 @@ export let dependencyRules = [
 export const namespaceName = 'export-metadata-blacklist';
 export let defaultBlacklist = {
     "*": [],
-    "categoryCombo": [
-        "category"
-    ],
+    "categoryCombo": [],
     "categoryOption": [
         "category", "categoryOptionCombo"
     ],
     "categoryOptionCombo": [
         "categoryCombo"
+    ],
+    "category": [
+        "categoryCombo", "categoryOptionCombo"
     ],
     "dataElement": [
         "dataSet"
